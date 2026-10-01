@@ -14,7 +14,7 @@ Specifically, this dashboard is designed to uncover actionable insights and supp
 * **Monitoring Operational Health:** Tracking core KPIs such as gross profit margins, return rates, cancellation risks, and individual sales representative performance.
 
 ## 2. Dataset & Grain
-* **Source:** A single raw flat file (`ggg.xlsx`).
+* **Source:** A single raw flat file Jcars_data.
 * **Grain:** One row represents one individual vehicle sales order transaction.
 * The raw data blended transactional, vehicle, location, and customer details, which were subsequently decoupled into a relational star schema.
 
@@ -69,15 +69,3 @@ A single-page overview designed for C-suite monitoring, answering the question, 
 * **Exchange Rates:** Due to missing payment dates, current market exchange rates were assumed and applied for currency conversion.
 * **Discounts:** Values entered as decimals were assumed to be final discount factors, while whole numbers without symbols were assumed to represent percentages and converted accordingly.
 * **Data Modeling:** Customer data was assumed valuable for future longitudinal tracking, prompting the deliberate normalization of `Dim Customers`.
-
-## 11. Repository Structure
-```text
-├── vehicle-sales-dashboard.pbix     
-├── data/
-│   └── ggg.xlsx                     
-├── images/
-│   ├── dashboard_screenshot.png
-│   └── lead_sources_chart.png
-├── docs/
-│   └── data_dictionary.pdf (Optional)
-└── README.md
