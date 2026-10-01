@@ -1,10 +1,7 @@
-## 1. Project Objective
-JCars Logistics imports, sells, and delivers vehicles to customers across regions in Kenya. The objective of this project is to transform a raw, unstandardized flat dataset into a reliable, interactive Power BI solution that moves beyond basic reporting to drive strategic management decisions.
-
----
+#From Raw Data to Executive Decisions: Building the JCars Logistics Power BI Dashboard
 
 ## 1. Project Objective
-JCars Logistics imports, sells, and delivers vehicles to customers across regions in Kenya. The objective of this project is to transform a raw, unstandardized flat dataset into a reliable, interactive Power BI solution that moves beyond basic reporting to drive strategic management decisions.
+JCars Logistics is an automotive business specializing in the importation, retail, and nationwide distribution of vehicles across Kenya. The objective of this project is to transform a raw, unstandardized flat dataset into a reliable, interactive Power BI solution that moves beyond basic reporting to drive strategic management decisions.
 
 Specifically, this dashboard is designed to uncover actionable insights and support evidence-based recommendations by:
 * **Optimizing Marketing ROI:** Evaluating lead source conversion (e.g., Walk-ins vs. Facebook/Instagram) to guide the reallocation of targeted marketing spend.
