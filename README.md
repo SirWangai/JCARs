@@ -91,10 +91,4 @@ A single-page overview designed for C-suite monitoring, answering the question, 
 │   ├── dashboard.png
 │   └── steps.png
 │   └── relationships.png
-<<<<<<< HEAD
 └── README.md
-=======
-└── README.md
-========
->>>>>>>> c4b3e796b0949d914f85fd400b0066b0c9f00552:Dashboard/README.md
->>>>>>> c4b3e796b0949d914f85fd400b0066b0c9f00552
