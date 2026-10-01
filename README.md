@@ -1,4 +1,4 @@
-#From Raw Data to Executive Decisions: Building the JCars Logistics Power BI Dashboard
+# From Raw Data to Executive Decisions: Building the JCars Logistics Power BI Dashboard
 
 ## 1. Project Objective
 JCars Logistics is an automotive business specializing in the importation, retail, and nationwide distribution of vehicles across Kenya. The objective of this project is to transform a raw, unstandardized flat dataset into a reliable, interactive Power BI solution that moves beyond basic reporting to drive strategic management decisions.
