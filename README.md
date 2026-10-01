@@ -27,7 +27,15 @@ Several significant data anomalies were identified and resolved during the audit
 | 4 | **Ambiguous Data (Categorical Duplication):** Different text strings were used interchangeably to mean the same thing (e.g., `"False"`, `"No"`, and `"Not Returned"`). | Standardized using conditional logic in Power Query to consolidate all variations into a single unified category. |
 
 ## 4. Currency Standardization
-The dataset contained transactions logged in multiple currencies. Because the exact timestamp of individual payments was not provided, current market conversion rates were applied to convert all foreign monetary values into a standardized Kenya Shilling (KES) format for accurate financial aggregation.
+The dataset contained transactions logged in multiple currencies. Because the exact timestamp of individual payments was not provided, current market conversion rates were applied to convert all foreign monetary values into a standardized Kenya Shilling (KES) format for accurate financial aggregation. All the values without valid currency symbols were treated as local currency as per the guidelines.
+
+The conversion rates used were:
+
+| Currency | Rate to KES |
+|---|---|
+| USD | 129.66 |
+| EUR | 147.37 |
+| ZAR |  7.92  |
 
 ## 5. Data Cleaning & Preparation (Power Query)
 Power Query was utilized to enforce data integrity and standard data types before loading into the DAX engine:
